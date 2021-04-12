@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Switch } from "react-router-dom";
+import Home from './pages/Home';
+import Category from './pages/Category';
+import Hobby from './pages/Hobby';
+import NoMatch from './pages/NoMatch';
 import './App.css';
 
-function App() {
+export default () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/category/:category" component={Category} />
+        <Route path="/hobbies/:hobby" component={Hobby} />
+        <Route component={NoMatch} />
+      </Switch>
     </div>
   );
 }
-
-export default App;
