@@ -2,7 +2,7 @@ import React from 'react';
 import HobbiesListItem from './HobbiesListItem';
 import '../App.css';
 
-export default ({ categoryData }) => {
+const HobbiesList = ({ categoryData }) => {
   return (
     <ul className='hobbies-list'>
       {categoryData.map(hobby => (
@@ -16,3 +16,5 @@ export default ({ categoryData }) => {
     </ul>
   )
 }
+
+export default HobbiesList;

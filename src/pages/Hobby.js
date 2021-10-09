@@ -5,7 +5,7 @@ import HobbyDetails from '../components/HobbyDetails';
 import data from "../data";
 import '../App.css';
 
-export default (props) => {
+const Hobby = (props) => {
   const { hobby } = props.match.params;
   const handleOnClick = () => props.history.goBack();
 
@@ -28,3 +28,5 @@ export default (props) => {
     </div>
   );
 }
+
+export default Hobby;

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-export default ({ src, name, category, description }) => {
+const HobbyDetails = ({ src, name, category, description }) => {
   const imgSrc = `/images/${src}.jpg`;
 
   return (
@@ -13,3 +13,5 @@ export default ({ src, name, category, description }) => {
     </div>
   )
 }
+
+export default HobbyDetails;

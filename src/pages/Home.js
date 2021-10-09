@@ -11,7 +11,7 @@ shuffle component button home page
   homepage button css/grid layout
 */
 
-export default () => {
+const Home = () => {
   return (
     <React.Fragment>
       <Header />
@@ -37,3 +37,5 @@ export default () => {
     </React.Fragment>
   );
 }
+
+export default Home;

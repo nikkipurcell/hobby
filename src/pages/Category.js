@@ -8,7 +8,7 @@ const getCategoryHobbies = (category) => data.filter(hobby => hobby.category ===
 
 // use react hook instead of calling function each time component renders
 
-export default (props) => {
+const Category = (props) => {
   const { category } = props.match.params;
 
   return (
@@ -22,3 +22,5 @@ export default (props) => {
     </div>
   );
 }
+
+export default Category;

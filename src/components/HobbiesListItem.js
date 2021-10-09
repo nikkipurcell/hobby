@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 
-export default ({ id, name, src }) => {
+const HobbiesListItem = ({ id, name, src }) => {
   const imgSrc = `../images/${src}.jpg`;
   const pageUrl = `/hobbies/${src}`;
 
@@ -14,3 +14,5 @@ export default ({ id, name, src }) => {
     </li>
   )
 }
+
+export default HobbiesListItem;

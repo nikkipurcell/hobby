@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 
-export default () => {
+const Navigation = () => {
   return (
     <React.Fragment>
       <a className='logo' href="/">hobby</a>
@@ -36,7 +36,9 @@ export default () => {
         className="backdrop"
         tabIndex="-1"
         aria-hidden="true"
-        hidden></a>
+        hidden>test</a>
     </React.Fragment>
   );
 }
+
+export default Navigation;

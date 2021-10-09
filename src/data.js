@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     name: 'Canoeing',
@@ -350,3 +350,5 @@ export default [
     src: 'painting-and-drawing'
   },
 ]
+
+export default data;

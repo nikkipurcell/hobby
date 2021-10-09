@@ -6,7 +6,7 @@ import Hobby from './pages/Hobby';
 import NoMatch from './pages/NoMatch';
 import './App.css';
 
-export default () => {
+const App = () => {
   return (
     <div className="App">
       <Switch>
@@ -18,3 +18,5 @@ export default () => {
     </div>
   );
 }
+
+export default App;

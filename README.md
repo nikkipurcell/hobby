@@ -13,15 +13,17 @@ In this project I use JavaScript methods to filter through array and object data
 
 ## Available Scripts
 
-In the project directory, you can run:
+To start the project make sure to install package.json depedencies. From the root file run:
+`npm start`
 
+### `npm install`
+
+To start the project in dev mode run:
 ### `npm start`
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.<br />
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+
 
 ### `npm test`
 
