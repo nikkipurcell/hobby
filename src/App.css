@@ -17,6 +17,11 @@ img {
   height: auto;
 }
 
+figure {
+  background-color: #c2cbd4;
+  margin: 0;
+}
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -27,7 +32,7 @@ img {
 .header {
   background-color: #4e5f70;
   color: #fff;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,13 +84,28 @@ img {
 main {
   padding: 0 10px;
 }
+main h1 {
+  font-size: 40px;
+}
+
 main p {
   color: #61696b;
+  font-size: 19px;
+}
+
+.explanation {
+  margin: 80px auto;
+  width: 50%;
+  font-size: 1em;
+}
+.explanation h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
 }
 
 nav {
   display: flex;
-  padding: 0 40px;
+  /* padding: 0 40px; */
   justify-content: space-between;
 }
 
@@ -171,7 +191,7 @@ nav li {
   left: -200px;
   top: 0;
   height: 100%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   overflow-x: visible;
   transition: left 0.3s ease,
     	box-shadow 0.3s ease;
@@ -199,6 +219,8 @@ nav li {
   color: #fff;
   text-decoration: none;
   border-bottom: 1px solid #383838;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .main-menu li:first-child a {
@@ -208,7 +230,6 @@ nav li {
 .main-menu a:hover,
 .main-menu a:focus {
   background: #333;
-  text-decoration: underline;
 }
 
 .main-menu .menu-close {
@@ -236,6 +257,7 @@ nav li {
 .main-menu:target .menu-close,
 .main-menu[aria-expanded="true"] .menu-close {
   z-index: 1001;
+  border-bottom: none;
 }
 
 .main-menu:target ul,
@@ -382,6 +404,8 @@ nav li {
   color: #61696b;
   font-size: 19px;
   padding: 0 40px;
+  width: 75%;
+  margin: 20px auto;
 }
 
 

@@ -6,7 +6,9 @@ const HobbyDetails = ({ src, name, category, description }) => {
 
   return (
     <div className='hobby-detail'>
-      <img src={imgSrc} alt={name} />
+      <figure>
+        <img src={imgSrc} alt={name} />
+      </figure>
       <p className='category'>{category} hobby</p>
       <h1>{name}</h1>
       <p className='description'>{description}</p>

@@ -23,6 +23,10 @@ const Home = () => {
         <Link to="/category/present" className='btn-primary'>Present Hobbies</Link>
         <Link to="/category/future" className='btn-primary'>Future Hobbies</Link>
 
+        <section className="explanation">
+          <h2>So what is the point of this site? </h2>
+          <p>It's just a list of all my hobbies. This helps me remember what I did in the past, what I'm into now, and what I might want to do in the future. The world is interesting. Routine gets boring. Start a new hobby and you should be able to find something fun to focus on for awhile.</p>
+        </section>
 
         {/* <div className='shuffle'>
           <p>Or choose a random hobby:</p>

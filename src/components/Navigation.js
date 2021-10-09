@@ -36,7 +36,7 @@ const Navigation = () => {
         className="backdrop"
         tabIndex="-1"
         aria-hidden="true"
-        hidden>test</a>
+        hidden></a>
     </React.Fragment>
   );
 }
