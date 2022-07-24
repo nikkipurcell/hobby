@@ -6,18 +6,16 @@ import '../App.css';
 
 const getCategoryHobbies = (category) => data.filter(hobby => hobby.category === category);
 
-// use react hook instead of calling function each time component renders
-
-const Category = (props) => {
-  const { category } = props.match.params;
+const Category = () => {
+  const page = window.location.pathname.split('/').pop();
 
   return (
     <div className="categories-page">
       <Header />
       <main>
-        <h1 className='category-name'>{category} Hobbies</h1>
+        <h1 className='category-name'>{page} Hobbies</h1>
         <p>Click on a hobby to read more.</p>
-        <HobbiesList categoryData={getCategoryHobbies(category)} />
+        <HobbiesList categoryData={getCategoryHobbies(page)} />
       </main>
     </div>
   );

@@ -32,11 +32,11 @@ const Navigation = () => {
           <li><Link to="/category/ideas">More</Link></li>
         </ul>
       </nav>
-      <a href="#main-menu-toggle"
+      {/* <a href="#main-menu-toggle"
         className="backdrop"
         tabIndex="-1"
         aria-hidden="true"
-        hidden></a>
+        hidden></a> */}
     </React.Fragment>
   );
 }

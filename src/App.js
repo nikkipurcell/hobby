@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
 import Category from './pages/Category';
 import Hobby from './pages/Hobby';
@@ -9,12 +9,12 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/category/:category" component={Category} />
-        <Route path="/hobbies/:hobby" component={Hobby} />
-        <Route component={NoMatch} />
-      </Switch>
+      <Routes>
+        <Route path="/hobby" element={<Home/>} />
+        <Route path="/category/:category" element={<Category/>} />
+        <Route path="/hobbies/:hobby" element={<Hobby/>} />
+        <Route element={<NoMatch/>} />
+      </Routes>
     </div>
   );
 }
