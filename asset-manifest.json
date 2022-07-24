@@ -1,24 +1,16 @@
 {
-  "files": {
-    "main.css": "/hobby/static/css/main.104b713d.chunk.css",
-    "main.js": "/hobby/static/js/main.a10cef54.chunk.js",
-    "main.js.map": "/hobby/static/js/main.a10cef54.chunk.js.map",
-    "runtime-main.js": "/hobby/static/js/runtime-main.09b03b2c.js",
-    "runtime-main.js.map": "/hobby/static/js/runtime-main.09b03b2c.js.map",
-    "static/css/2.8cd75a17.chunk.css": "/hobby/static/css/2.8cd75a17.chunk.css",
-    "static/js/2.8ae54647.chunk.js": "/hobby/static/js/2.8ae54647.chunk.js",
-    "static/js/2.8ae54647.chunk.js.map": "/hobby/static/js/2.8ae54647.chunk.js.map",
-    "index.html": "/hobby/index.html",
-    "static/css/2.8cd75a17.chunk.css.map": "/hobby/static/css/2.8cd75a17.chunk.css.map",
-    "static/css/main.104b713d.chunk.css.map": "/hobby/static/css/main.104b713d.chunk.css.map",
-    "static/js/2.8ae54647.chunk.js.LICENSE.txt": "/hobby/static/js/2.8ae54647.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.css": "/hobby/static/media/fontawesome-webfont.f691f37e.woff"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.09b03b2c.js",
-    "static/css/2.8cd75a17.chunk.css",
-    "static/js/2.8ae54647.chunk.js",
-    "static/css/main.104b713d.chunk.css",
-    "static/js/main.a10cef54.chunk.js"
-  ]
+  "main.css": "/hobby/static/css/main.6f6baf79.chunk.css",
+  "main.js": "/hobby/static/js/main.6afb64a7.chunk.js",
+  "main.js.map": "/hobby/static/js/main.6afb64a7.chunk.js.map",
+  "runtime~main.js": "/hobby/static/js/runtime~main.e349db77.js",
+  "runtime~main.js.map": "/hobby/static/js/runtime~main.e349db77.js.map",
+  "static/css/2.c8d40d8a.chunk.css": "/hobby/static/css/2.c8d40d8a.chunk.css",
+  "static/js/2.34097757.chunk.js": "/hobby/static/js/2.34097757.chunk.js",
+  "static/js/2.34097757.chunk.js.map": "/hobby/static/js/2.34097757.chunk.js.map",
+  "index.html": "/hobby/index.html",
+  "precache-manifest.3d46b8328c4bd26ae0d23185d6522d06.js": "/hobby/precache-manifest.3d46b8328c4bd26ae0d23185d6522d06.js",
+  "service-worker.js": "/hobby/service-worker.js",
+  "static/css/2.c8d40d8a.chunk.css.map": "/hobby/static/css/2.c8d40d8a.chunk.css.map",
+  "static/css/main.6f6baf79.chunk.css.map": "/hobby/static/css/main.6f6baf79.chunk.css.map",
+  "static/media/font-awesome.css": "/hobby/static/media/fontawesome-webfont.fee66e71.woff"
 }
