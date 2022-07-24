@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hobby/static/css/main.104b713d.chunk.css",
+    "main.js": "/hobby/static/js/main.a10cef54.chunk.js",
+    "main.js.map": "/hobby/static/js/main.a10cef54.chunk.js.map",
+    "runtime-main.js": "/hobby/static/js/runtime-main.09b03b2c.js",
+    "runtime-main.js.map": "/hobby/static/js/runtime-main.09b03b2c.js.map",
+    "static/css/2.8cd75a17.chunk.css": "/hobby/static/css/2.8cd75a17.chunk.css",
+    "static/js/2.8ae54647.chunk.js": "/hobby/static/js/2.8ae54647.chunk.js",
+    "static/js/2.8ae54647.chunk.js.map": "/hobby/static/js/2.8ae54647.chunk.js.map",
+    "index.html": "/hobby/index.html",
+    "static/css/2.8cd75a17.chunk.css.map": "/hobby/static/css/2.8cd75a17.chunk.css.map",
+    "static/css/main.104b713d.chunk.css.map": "/hobby/static/css/main.104b713d.chunk.css.map",
+    "static/js/2.8ae54647.chunk.js.LICENSE.txt": "/hobby/static/js/2.8ae54647.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/hobby/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b03b2c.js",
+    "static/css/2.8cd75a17.chunk.css",
+    "static/js/2.8ae54647.chunk.js",
+    "static/css/main.104b713d.chunk.css",
+    "static/js/main.a10cef54.chunk.js"
+  ]
+}
