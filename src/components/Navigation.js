@@ -5,7 +5,7 @@ import '../App.css';
 const Navigation = () => {
   return (
     <React.Fragment>
-      <a className='logo' href="/">hobby</a>
+      <a className='logo' href="/hobby">hobby</a>
 
       <a href="#main-menu"
         id="main-menu-toggle"
