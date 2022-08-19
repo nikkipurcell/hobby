@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../App.css";
 
 const HobbiesListItem = ({ id, name, src }) => {
-  const imgSrc = `/images/${src}.jpg`;
+  const imgSrc = `${process.env.PUBLIC_URL}/images/${src}.jpg`;
   const pageUrl = `/hobbies/${src}`;
 
   return (
