@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import "../App.css";
 
 const HobbiesListItem = ({ id, name, src }) => {
-  const imgSrc = `./images/${src}.jpg`;
+  // const imgFolder = require.context('./images/', false);
+  // const img_node = images(`./${src}.jpg`)
+  const imgSrc = require(`../images/${src}.jpg`).default;
   const pageUrl = `/hobbies/${src}`;
 
   return (
     <li key={id}>
       <Link to={pageUrl}>
-        <img src={require(imgSrc)} alt={name} />
+        <img src={imgSrc} alt={name} />
       </Link>
     </li>
   );
