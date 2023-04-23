@@ -2,12 +2,10 @@ import React from "react";
 import Navigation from "./Navigation";
 import "../App.css";
 
-const Header = () => {
-  return (
-    <header className="header">
-      <Navigation />
-    </header>
-  );
-};
+const Header = () => (
+  <header className="header">
+    <Navigation />
+  </header>
+);
 
 export default Header;

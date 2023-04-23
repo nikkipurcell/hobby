@@ -2,19 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 
-const HobbiesListItem = ({ id, name, src }) => {
-  // const imgFolder = require.context('./images/', false);
-  // const img_node = images(`./${src}.jpg`)
-  const imgSrc = require(`../images/${src}.jpg`).default;
-  const pageUrl = `/hobbies/${src}`;
-
-  return (
-    <li key={id}>
-      <Link to={pageUrl}>
-        <img src={imgSrc} alt={name} />
-      </Link>
-    </li>
-  );
-};
+const HobbiesListItem = ({ name, src }) => (
+  <li>
+    <Link to={`/hobbies/${src}`}>
+      <img src={`../images/${src}.jpg`} alt={name}></img>
+    </Link>
+  </li>
+);
 
 export default HobbiesListItem;
