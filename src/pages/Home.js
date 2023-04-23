@@ -38,7 +38,7 @@ const Home = () => {
             did in the past, what I'm into now, and what I might want to do in
             the future. The world is interesting. Routine gets boring. Start a
             new hobby and you should be able to find something fun to focus on
-            for awhile.
+            for awhile. Test.
           </p>
         </section>
 
