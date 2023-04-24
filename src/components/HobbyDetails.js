@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 
 const HobbyDetails = ({ src, name, category, description }) => {
-  const imgSrc = `/images/${src}.jpg`;
+  const imgSrc = `${window.location.origin}/hobby/images/${src}.jpg`;
 
   return (
     <div className="hobby-detail">
