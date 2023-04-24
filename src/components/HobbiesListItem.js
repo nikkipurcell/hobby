@@ -5,7 +5,7 @@ import "../App.css";
 const HobbiesListItem = ({ name, src }) => (
   <li>
     <Link to={`/hobbies/${src}`}>
-      <img src={`../images/${src}.jpg`} alt={name}></img>
+      <img src={`${window.location.origin}/hobby/images/${src}.jpg`} alt={name}></img>
     </Link>
   </li>
 );
