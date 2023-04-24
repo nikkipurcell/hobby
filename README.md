@@ -7,4 +7,8 @@ This practice project was bootstrapped with [Create React App](https://github.co
 
 ## Development
 
-I have a develop branch that I use to create changes. Once pushed up, open a pull request on develop branch so you can push changes from develop to main. Main will then automatically publish the changes to github pages so you can see on the live website.
+On the main branch make changes. When ready commit your changes then do a `git push`.
+
+## Deploy to Github Pages
+
+When all changes have been pushed to the remote branch on main, run `npm run deploy`. This will deploy your changes to the Github page listed at https://nikkipurcell.github.io/hobby/.
