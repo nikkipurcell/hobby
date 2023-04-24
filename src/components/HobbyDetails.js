@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 
 const HobbyDetails = ({ src, name, category, description }) => {
+  useEffect(() => {
+    setTimeout(() => window.scrollTo(0, 0));
+  }, []);
+
   const imgSrc = `${window.location.origin}/hobby/images/${src}.jpg`;
 
   return (
